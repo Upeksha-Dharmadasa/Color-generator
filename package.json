@@ -1,0 +1,15 @@
+{
+  "name": "colors-iud100",
+  "version": "1.0.0",
+  "description": "A ranodom color generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Color Array"
+  ],
+  "author": "Upeksha Dharmadasa",
+  "license": "ISC",
+  "dependencies": {}
+}

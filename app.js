@@ -88,9 +88,11 @@ class Color
     new Color('Lavender Blush', '#FFF0F5', '255,240,245')
   ];
 
+  //get a raqndom color from colors array 
   exports.getRandomColor = () => {
     return ColorsArray[Math.floor(Math.random() * ColorsArray.length)];
   }
+  //get a random sub color from particular main color
   exports.getRedColor = () => {
     return ColorsArray[Math.floor(Math.random() * 6)];
   }
@@ -124,7 +126,85 @@ class Color
   exports.getWhiteColor = () => {
     return ColorsArray[Math.floor(Math.random() * 6)+59];
   }
-  
+  //Get All version of specific color 
+  var specifics = []
+  exports.getAllRedcolors = () =>{
+    specifics = [];
+    for(i = 0; i < 6; i++){
+      specifics.push(ColorsArray[i]);
+    }
+    return specifics;
+  }
+  exports.getAllBlueColors = () => {
+    specifics = [];
+    for(i = 6; i < 11; i++){
+      specifics.push(ColorsArray[i]);
+    }
+    return specifics;
+  }
+  exports.getAllOrangeColors = () => {
+    specifics = [];
+    for(i = 11; i < 17; i++){
+      specifics.push(ColorsArray[i]);
+    }
+    return specifics;
+  }
+  exports.getAllGreenColors = () => {
+    specifics = [];
+    for(i = 17; i < 23; i++){
+      specifics.push(ColorsArray[i]);
+    }
+    return specifics;
+  }
+  exports.getAllCyanColors = () => {
+    specifics = [];
+    for(i = 23; i < 29; i++){
+      specifics.push(ColorsArray[i]);
+    }
+    return specifics;
+  }
+  exports.getAllYellowColors = () => {
+    specifics = [];
+    for(i = 29; i < 35; i++){
+      specifics.push(ColorsArray[i]);
+    }
+    return specifics;
+  }
+  exports.getAllPinkColors = () => {
+    specifics = [];
+    for(i = 35; i < 41; i++){
+      specifics.push(ColorsArray[i]);
+    }
+    return specifics;
+  }
+  exports.getAllPurpleColors = () => {
+    specifics = [];
+    for(i = 41; i < 47; i++){
+      specifics.push(ColorsArray[i]);
+    }
+    return specifics;
+  }
+  exports.getAllGreyColors = () => {
+    specifics = [];
+    for(i = 47; i < 53; i++){
+      specifics.push(ColorsArray[i]);
+    }
+    return specifics;
+  }
+  exports.getAllBrownColors = () => {
+    specifics = [];
+    for(i = 53; i < 59; i++){
+      specifics.push(ColorsArray[i]);
+    }
+    return specifics;
+  }
+  exports.getAllWhiteColors = () => {
+    specifics = [];
+    for(i = 59; i < 65; i++){
+      specifics.push(ColorsArray[i]);
+    }
+    return specifics;
+  }
   exports.ColorsArray = ColorsArray;
 
   

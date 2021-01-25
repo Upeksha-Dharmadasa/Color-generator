@@ -65,6 +65,7 @@ class Color
     new Color('Plum', '#DDA0DD', '221,160,221'),
     new Color('Thistle', '#D8BFD8', '216,191,216'),
     new Color('Lavender','#E6E6FA', '230,230,250'),
+    new Color('Indigo', '#4b0082', '75,0,130'),
     // Grey color
     new Color('Grey', '#808080', '128,128,128'),
     new Color('Dim Grey', '#696969', '105,105,105'),
@@ -100,31 +101,31 @@ class Color
     return ColorsArray[Math.floor(Math.random() * 6)+6];
   }
   exports.getOrangeColor = () => {
-    return ColorsArray[Math.floor(Math.random() * 6)+11];
+    return ColorsArray[Math.floor(Math.random() * 6)+12];
   }
   exports.getGreenColor = () => {
-    return ColorsArray[Math.floor(Math.random() * 6)+17];
+    return ColorsArray[Math.floor(Math.random() * 6)+18];
   }
   exports.getCyanColor = () => {
-    return ColorsArray[Math.floor(Math.random() * 6)+23];
+    return ColorsArray[Math.floor(Math.random() * 6)+24];
   }
   exports.getYellowColor = () => {
-    return ColorsArray[Math.floor(Math.random() * 6)+29];
+    return ColorsArray[Math.floor(Math.random() * 6)+30];
   }
   exports.getPinkColor = () => {
-    return ColorsArray[Math.floor(Math.random() * 6)+35];
+    return ColorsArray[Math.floor(Math.random() * 6)+36];
   }
   exports.getPurpleColor = () => {
-    return ColorsArray[Math.floor(Math.random() * 6)+41];
+    return ColorsArray[Math.floor(Math.random() * 6)+42];
   }
   exports.getGreyColors = () => {
-    return ColorsArray[Math.floor(Math.random() * 6)+47];
+    return ColorsArray[Math.floor(Math.random() * 6)+48];
   }
   exports.getBrownColor = () => {
-    return ColorsArray[Math.floor(Math.random() * 6)+53];
+    return ColorsArray[Math.floor(Math.random() * 6)+54];
   }
   exports.getWhiteColor = () => {
-    return ColorsArray[Math.floor(Math.random() * 6)+59];
+    return ColorsArray[Math.floor(Math.random() * 6)+60];
   }
   //Get All version of specific color 
   var specifics = []
@@ -136,72 +137,71 @@ class Color
     return specifics;
   }
   exports.getAllBlueColors = () => {
-    
     specifics = [];
-    for(i = 6; i < 11; i++){
+    for(i = 6; i < 12; i++){
       specifics.push(ColorsArray[i]);
     }
     return specifics;
   }
   exports.getAllOrangeColors = () => {
     specifics = [];
-    for(i = 11; i < 17; i++){
+    for(i = 12; i < 18; i++){
       specifics.push(ColorsArray[i]);
     }
     return specifics;
   }
   exports.getAllGreenColors = () => {
     specifics = [];
-    for(i = 17; i < 23; i++){
+    for(i = 18; i < 24; i++){
       specifics.push(ColorsArray[i]);
     }
     return specifics;
   }
   exports.getAllCyanColors = () => {
     specifics = [];
-    for(i = 23; i < 29; i++){
+    for(i = 24; i < 30; i++){
       specifics.push(ColorsArray[i]);
     }
     return specifics;
   }
   exports.getAllYellowColors = () => {
     specifics = [];
-    for(i = 29; i < 35; i++){
+    for(i = 30; i < 36; i++){
       specifics.push(ColorsArray[i]);
     }
     return specifics;
   }
   exports.getAllPinkColors = () => {
     specifics = [];
-    for(i = 35; i < 41; i++){
+    for(i = 36; i < 42; i++){
       specifics.push(ColorsArray[i]);
     }
     return specifics;
   }
   exports.getAllPurpleColors = () => {
     specifics = [];
-    for(i = 41; i < 47; i++){
+    for(i = 42; i < 48; i++){
       specifics.push(ColorsArray[i]);
     }
     return specifics;
   }
   exports.getAllGreyColors = () => {
     specifics = [];
-    for(i = 47; i < 53; i++){
+    for(i = 48; i < 54; i++){
       specifics.push(ColorsArray[i]);
     }
     return specifics;
   }
   exports.getAllBrownColors = () => {
     specifics = [];
-    for(i = 53; i < 59; i++){
+    for(i = 54; i < 60; i++){
       specifics.push(ColorsArray[i]);
     }
     return specifics;
   }
   exports.getAllWhiteColors = () => {
     specifics = [];
-    for(i = 59; i < 65; i++){
+    for(i = 60; i < 66; i++){
       specifics.push(ColorsArray[i]);
     }
     return specifics;

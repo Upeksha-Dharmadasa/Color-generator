@@ -136,6 +136,7 @@ class Color
     return specifics;
   }
   exports.getAllBlueColors = () => {
+    
     specifics = [];
     for(i = 6; i < 11; i++){
       specifics.push(ColorsArray[i]);
